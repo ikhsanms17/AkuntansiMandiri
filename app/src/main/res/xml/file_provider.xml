@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Untuk akses file di context.getExternalFilesDir(null) -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- Jika kamu menyimpan di /Download lewat Environment -->
+    <external-path
+        name="download"
+        path="Download/" />
+</paths>
